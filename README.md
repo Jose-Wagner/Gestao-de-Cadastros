@@ -1,16 +1,16 @@
-#Gestão de Cadastros
+# Gestão de Cadastros
 
-#Desafio
+# Desafio
 
 Criação de um sistema e-commerce para inventário de produtos e dados de clientes:
 
-#Entrega
+# Entrega
 
 • Site Oficial / Landing
 
 • Hospedado no netlify: 
 
-#Entregáveis:
+# Entregáveis:
 
 -Os dados de clientes, endereços e produtos devem estar devidamente estruturados
 
