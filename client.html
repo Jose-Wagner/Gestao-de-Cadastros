@@ -12,41 +12,34 @@
         <div class="content">
             <div id="formulario" class="formulario">
                 <div>
-                    <form action="createUser.php" method="post">
+                    <form id="form" method="post">
                         <div id="title">
-                            <h1 id="title-form">Cadastro de novo Usuário</h1>
+                            <h1 id="title-form">Cadastro de novo usuário</h1>
                             <a class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
                         </div>
                         <div class="container-form">
                             <div class="input_div">
-                                <input class="input_form" type="text" name="name" placeholder="Nome"
+                                <input class="input_form" id="nome" type="text" name="name" placeholder="Nome"
                                 value="" required>
                             </div>
                             <div class="input_div">
-                                <input class="input_form" type="email" name="email" placeholder="Email"
+                                <input class="input_form" id="email" type="email" name="email" placeholder="Email"
                                 value="" required>
                             </div>
                             <div class="input_div">
-                                <input class="input_form" type="text" name="Nacimento" placeholder="Data de Nacimento"
+                                <input class="input_form" id="nacimento" type="text" name="Nacimento" placeholder="Data de Nacimento"
                                 value="" required>
                             </div>
                             <div class="input_div">
-                                <input class="input_form" type="tel" name="tel" placeholder="Telefone"
+                                <input class="input_form" id="tel" type="tel" name="tel" placeholder="Telefone"
                                 value="" required>
                             </div>
                             <div class="input_div">
-                                <input class="input_form" type="text" placeholder="Endereço" required>
+                                <input class="input_form" id="endereco" type="text" placeholder="Endereço" required>
                             </div>
                             <div class="input_div">
-                                <input class="input_form" type="number" name="CPF" placeholder="CPF"
+                                <input class="input_form" id="cpf" type="number" name="CPF" placeholder="CPF"
                                 value="" required>
-                            </div>
-                            <div class="input_div">
-                                Sexo:
-                                <input type="radio" name="masc"
-                                value="Masculino" required> Masculino
-                                <input type="radio" name="fem"
-                                value="Feminino" required> Feminino
                             </div>
                         </div>
                         <button class="send-buttons" name="action" value="create"> enviar </button>
@@ -59,4 +52,6 @@
         </div>
     </div>
 </body>
+<script src="js/scriptClient.js"></script>
+
 </html
