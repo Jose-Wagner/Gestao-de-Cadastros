@@ -8,7 +8,7 @@ Criação de um sistema e-commerce para inventário de produtos e dados de clien
 
 • Site Oficial / Landing
 
-• Hospedado no netlify: 
+• Hospedado no netlify: https://elastic-colden-9ece92.netlify.app
 
 # Entregáveis:
 
