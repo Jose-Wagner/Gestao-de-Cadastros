@@ -19,5 +19,5 @@ form.addEventListener("submit", (e) => {
     let convertDados = JSON.stringify(dados)
     localStorage.setItem('lead', convertDados) 
 
-    alert(`Cadastro de novo Usuário realizada com sucesso!`)
+    alert(`Cadastro de novo usuário realizada com sucesso!`)
 })
